@@ -5,3 +5,5 @@ const dataCheck=(req,res)=>{
 }
 http.createServer(dataCheck).listen(4500);
 
+const color=require('colors');
+console.log("package".bgCyan)
