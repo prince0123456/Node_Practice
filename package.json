@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "node practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prince0123456/Node_Practice.git"
+  },
+  "keywords": [
+    "Prince0088"
+  ],
+  "author": "Princegupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prince0123456/Node_Practice/issues"
+  },
+  "homepage": "https://github.com/prince0123456/Node_Practice#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
