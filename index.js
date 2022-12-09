@@ -11,3 +11,8 @@ const result=arr.filter((item)=>{
 return item===3;
 })
 console.log(result)
+const fs=require('fs');
+const { dirname } = require('path');
+fs.writeFileSync("hello","file create");
+console.log(__dirname);
+console.log(__filename)
