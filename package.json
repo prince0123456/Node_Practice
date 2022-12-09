@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/prince0123456/Node_Practice#readme",
   "dependencies": {
+    "chalk": "^5.2.0",
     "colors": "^1.4.0"
   }
 }
