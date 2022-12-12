@@ -1,13 +1,11 @@
-//middleware
-
-module.exports= reqFilter=(req,res,next)=>{
-    if(!req.query.age){
-        res.send("please provide age")
-    }else if(req.query.age<20){
-        res.send("20 age limit")
+module.exports = (req, resp, next) => {
+    if (!req.query.age) {
+        resp.send("Please provide your age")
     }
-    else{
-     res.send('nothing')
-    }  
+    else if (req.query.age<18) {
+        resp.send("You are under aged")
+    }
+    else {
+        next();
+    }
 }
-
