@@ -4,14 +4,17 @@ const con=mysql.createConnection({
     host:"localhost",
     user:"root",
     password:"root",
-    database:"sakila"
+    database:"world"
 });
 con.connect((err)=>{
     if(err){
-        console.warn("error")
+        console.warn(err)
     }else{
         console.warn("connected")
     }
 })
 
-con.query("select * form")
+con.query("SELECT * FROM city",(err,result)=>{
+    console.warn(err);
+    console.warn("result",result);
+})
