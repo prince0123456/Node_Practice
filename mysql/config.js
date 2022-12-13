@@ -4,6 +4,6 @@ const con=mysql.createConnection({
     host:"localhost",
     user:"root",
     password:"root",
-    database:"world"
+    database:"test"
 });
 module.exports=con;
